@@ -8,6 +8,12 @@ This programs replicates the Wordle game in a boot sector, because
 of the space limitations it only contains 57 words. Also because
 the word list is so tiny, it doesn't check if it is a valid word.
 
+In case you want a full 2500 word list, there is Bootle v2, it
+contains a loader to retrieve the dictionary from the disk
+(it generates a 360 KB image), so it can work WITHOUT operating
+system. Also there is a COM file if the prospect of not having an
+operating system bothers you :P
+
 It can be run as a COM file or put into a boot sector of a floppy
 disk to be run.
 
