@@ -275,6 +275,10 @@ read_keyboard:
         pop cx
 	ret
 
+        db "Bootle v2, by Oscar Toledo G. Feb/27/2022",0
+
+        db "360KB image runnable on qemu, VirtualBox, or original IBM PC",0
+
     %if com_file
     %else
         times 510-($-$$) db 0x4f
